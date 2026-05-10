@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <!-- Makes the website responsive on different devices -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>GrahMais Delight | Contact</title>
+
+    <!-- External CSS file -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- HEADER SECTION -->
+    <header class="site-header">
+        <div class="container header-container">
+            <img src="logo.jpg" alt="GrahMais Delight Logo" width="200px" height="100px">
+
+            <!-- NAVIGATION BAR -->
+            <nav class="navbar" aria-label="Main Navigation">
+                <a href="Home.html">Home</a>
+                <a href="About.html">About</a>
+                <a href="Contact.html">Contact</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- MAIN CONTENT -->
+    <main class="container">
+
+        <!-- CONTACT INTRO SECTION -->
+        <section class="page-title">
+            <h2>Contact Us</h2>
+            <p>
+                Have questions, feedback, or orders? Send us a message using the form below.
+            </p>
+        </section>
+
+        <!-- CONTACT LAYOUT -->
+        <section class="contact-layout">
+
+            <!-- CONTACT FORM -->
+            <article class="contact-card">
+                <h3>Send a Message</h3>
+
+                <!-- Functional-looking HTML form -->
+                <form action="#" method="post" class="contact-form">
+
+                    <!-- Name input with connected label -->
+                    <label for="fullname">Full Name</label>
+                    <input type="text" id="fullname" name="fullname" placeholder="Enter your full name" required>
+
+                    <!-- Email input with connected label -->
+                    <label for="email">Email Address</label>
+                    <input type="email" id="email" name="email" placeholder="Enter your email address" required>
+
+                    <!-- Order type dropdown -->
+                    <label for="order-type">Type of Inquiry</label>
+                    <select id="order-type" name="order-type" required>
+                        <option value="">Select an option</option>
+                        <option value="order">Order</option>
+                        <option value="feedback">Feedback</option>
+                        <option value="question">Question</option>
+                    </select>
+
+                    <!-- Message textarea -->
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" placeholder="Write your message here" required></textarea>
+
+                    <!-- Submit button -->
+                    <button type="submit">Submit Message</button>
+
+                </form>
+            </article>
+
+            <!-- CONTACT DETAILS -->
+            <aside class="contact-card">
+                <h3>Contact Details</h3>
+                <p><strong>Email:</strong> grahmaisdelight@gmail.com</p>
+                <p><strong>Location:</strong> Pasay City, Philippines</p>
+                <p><strong>Business Type:</strong> Dessert Microenterprise</p>
+                <p><strong>Product:</strong> Creamy Graham Corn Jelly Dessert</p>
+            </aside>
+
+        </section>
+
+    </main>
+
+    <!-- FOOTER SECTION -->
+    <footer class="site-footer">
+        <p>&copy; 2026 GrahMais Delight. All rights reserved.</p>
+    </footer>
+
+</body>
+</html>
