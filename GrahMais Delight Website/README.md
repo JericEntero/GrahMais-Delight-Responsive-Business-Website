@@ -44,12 +44,21 @@ Technologies Used
 Folder Structure
 GrahMais-Delight-Website/
 │
+
 ├── Home.html
+
 ├── About.html
+
 ├── Contact.html
+
 ├── style.css
+
 ├── logo.jpg
+
 ├── Jeric.jpg
+
 ├── README.md
+
 └── images/
+
     └── dessert.jpg
